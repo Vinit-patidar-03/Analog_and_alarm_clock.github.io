@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="shortcut icon" href="./images/alarm.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Css/tablet.css">
+    <link rel="stylesheet" href="./Css/phone.css">
+    <link rel="stylesheet" href="./Css/mid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <title> Analog and Alarm Clock</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="Clock">
+            <div class="clock">
+                <div class="Hours" id="hour"></div>
+                <div class="Minutes" id="min"></div>
+                <div class="Seconds" id="sec"></div>
+                <img src="./images/Clock.jpg" alt="Analog Clock">
+            </div>
+        </div>
+        <div class="Alarm">
+            <div class="head">
+                <img src="./images/alarm.png" alt="">
+                <h1>Alarm</h1>
+            </div>
+            <div class="alarm">
+                <label for="">Time:<input type="time" id="time"></label>
+                <label for="">Date:<input type="date" id="date"></label>
+                <button id="set">Set Alarm</button>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        copyright &copy; all rights reserved
+    </footer>
+</body>
+<script src="./js/clock.js"></script>
+
+</html>

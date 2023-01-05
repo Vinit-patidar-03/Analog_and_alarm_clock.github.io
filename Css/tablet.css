@@ -1,0 +1,73 @@
+@media((Max-width: 1030px))
+{
+   #Clock
+   {
+    height:300px;
+    width:300px;
+   }
+
+   .clock img {
+    width: 300px;
+    border-radius: 25px;
+  }
+
+  .Hours {
+    width: 7px;
+    height: 112px;
+    background-color: black;
+    border-radius: 20px;
+    position: absolute;
+    top: 38.5px;
+    left: 145px;
+    transform-origin: bottom;
+  }
+  
+  .Minutes {
+    width: 4px;
+    height: 120px;
+    background-color: black;
+    border-radius: 20px;
+    position: absolute;
+    top: 30px;
+    left: 147px;
+    transform-origin: bottom;
+  }
+  
+  .Seconds {
+    width: 2px;
+    height: 131px;
+    background-color: black;
+    border-radius: 20px;
+    position: absolute;
+    top: 19px;
+    left: 148px;
+    transform-origin: bottom;
+  }
+
+  .Alarm
+  {
+    width:300px;
+    height:300px;
+  }
+
+  .head{
+    margin:0px;
+  }
+
+  .Alarm .head img {
+    width: 50px;
+  }
+
+  .Alarm .head h1 {
+    margin-top: 0px;
+  }
+  
+  .alarm input {
+    border-radius: 12px;
+    height: 25px;
+    width: 160px;
+    font-size: 1rem;
+    margin: 10px 5px;
+    padding: 0px 10px;
+  }
+}
